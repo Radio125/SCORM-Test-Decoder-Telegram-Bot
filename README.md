@@ -24,4 +24,28 @@ The **SCORM Test Decoder Telegram Bot** is designed to facilitate the extraction
 
 To set up the bot locally:
 
-1
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git
+2. Navigate to the Directory:
+   cd SCORM-Test-Decoder-Telegram-Bot
+3. Create a Virtual Environment (optional but recommended):
+  python -m venv venv
+4. Activate the Virtual Environment:
+  On Windows:
+    venv\Scripts\activate
+  On macOS/Linux:
+    source venv/bin/activate
+5. Install Dependencies:
+  pip install -r requirements.txt
+6. Run the Bot:
+  python bot.py
+
+Configuration
+Bot Token: Replace the placeholder token in the config.py file with your actual Telegram Bot API token.
+SCORM Files: Ensure SCORM JSON files are properly formatted for the bot to decode and process them effectively.
+Contributing
+If you would like to contribute to the development of this bot, please feel free to fork the repository and submit pull requests. Any suggestions or bug reports are also welcome via GitHub issues.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
