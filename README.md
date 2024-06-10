@@ -1,5 +1,19 @@
 # SCORM Test Decoder Telegram Bot
 
+![Build Status](https://img.shields.io/github/actions/workflow/status/Radio125/SCORM-Test-Decoder-Telegram-Bot/main.yml?branch=main)
+![License](https://img.shields.io/github/license/Radio125/SCORM-Test-Decoder-Telegram-Bot)
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Example Result](#example-result)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
+
 <details>
   <summary>### Description</summary>
 
