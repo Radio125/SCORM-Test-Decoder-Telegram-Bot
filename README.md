@@ -27,17 +27,22 @@ To set up the bot locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git
+   
 2. Navigate to the Directory:
    cd SCORM-Test-Decoder-Telegram-Bot
+
 3. Create a Virtual Environment (optional but recommended):
-  python -m venv venv
+    python -m venv venv
+
 4. Activate the Virtual Environment:
   On Windows:
     venv\Scripts\activate
   On macOS/Linux:
     source venv/bin/activate
+   
 5. Install Dependencies:
   pip install -r requirements.txt
+
 6. Run the Bot:
   python bot.py
 
