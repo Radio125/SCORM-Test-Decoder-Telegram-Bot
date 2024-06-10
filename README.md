@@ -1,4 +1,4 @@
-# SCORM Test Decoder Telegram Bot
+# SCORM (iSpring Learn) Test Decoder Telegram Bot
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/Radio125/SCORM-Test-Decoder-Telegram-Bot/main.yml?branch=main)
 ![License](https://img.shields.io/github/license/Radio125/SCORM-Test-Decoder-Telegram-Bot)
