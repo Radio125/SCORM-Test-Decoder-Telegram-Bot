@@ -20,6 +20,45 @@ The **SCORM Test Decoder Telegram Bot** is designed to facilitate the extraction
 2. **Upload SCORM JSON File**: Send the `data-1.json` file containing SCORM test data to the bot.
 3. **Receive Decoded Content**: The bot processes the file and returns the decoded questions and answers in a readable format.
 
+### Example Result
+
+**Question**: Now match the pairs as they should be:
+- **Type**: Matching
+- **Answers**:
+  - 🔗 Pair 1 part 1 -> Pair 1 part 2
+  - 🔗 Pair 2 part 1 -> Pair 2 part 2
+  - 🔗 Pair 3 part 1 -> Pair 3 part 2
+
+**Question**: How many blue hairs does Harry Potter have?
+- **Type**: Multiple Choice
+- **Answers**:
+  - ❌ A hundred million
+  - ❌ None
+  - ✅ Twenty-five
+  - ❌ Fifty-four
+
+**Question**: Enter the answer to your question from me, how much does a kilo of raisins cost in raisins?
+- **Type**: Text Input
+
+**Question**: What is the sequence of notes?
+- **Type**: Sequencing
+- **Answers**:
+  1️⃣ Do
+  2️⃣ Re
+  3️⃣ Mi
+  4️⃣ Fa
+  5️⃣ So
+  6️⃣ La
+  7️⃣ Ti
+
+**Question**: There are 2 correct answers, try to guess which options are correct:
+- **Type**: Multiple Response
+- **Answers**:
+  - ✅ Second option
+  - ✅ Option one
+  - ❌ This is the third option
+  - ❌ And here is the fourth option
+  
 ### Installation
 
 To set up the bot locally:
@@ -52,5 +91,8 @@ SCORM Files: Ensure SCORM JSON files are properly formatted for the bot to decod
 Contributing
 If you would like to contribute to the development of this bot, please feel free to fork the repository and submit pull requests. Any suggestions or bug reports are also welcome via GitHub issues.
 
+Author
+Created by Radio125. Feel free to download, distribute, and modify the code. A simple like is enough!
+
 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
