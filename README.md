@@ -2,8 +2,6 @@
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/Radio125/SCORM-Test-Decoder-Telegram-Bot/main.yml?branch=main)
 ![License](https://img.shields.io/github/license/Radio125/SCORM-Test-Decoder-Telegram-Bot)
-![GitHub issues](https://img.shields.io/github/issues/Radio125/SCORM-Test-Decoder-Telegram-Bot)
-![GitHub forks](https://img.shields.io/github/forks/Radio125/SCORM-Test-Decoder-Telegram-Bot)
 
 ## Table of Contents
 - [Description](#description)
