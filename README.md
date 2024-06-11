@@ -105,71 +105,36 @@
   <summary>Click to expand</summary>
   <ol>
     <li><strong>Clone the Repository</strong>:
-      <br>
-      <a href="#" onclick="navigator.clipboard.writeText('git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git')">
-        <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-      </a>
-      ```bash
-      git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git
-      ```
+      <button onclick="copyToClipboard('git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git')">Copy command</button>
+      <pre><code>git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git</code></pre>
     </li>
     <li><strong>Navigate to the Directory</strong>:
-      <br>
-      <a href="#" onclick="navigator.clipboard.writeText('cd SCORM-Test-Decoder-Telegram-Bot')">
-        <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-      </a>
-      ```bash
-      cd SCORM-Test-Decoder-Telegram-Bot
-      ```
+      <button onclick="copyToClipboard('cd SCORM-Test-Decoder-Telegram-Bot')">Copy command</button>
+      <pre><code>cd SCORM-Test-Decoder-Telegram-Bot</code></pre>
     </li>
     <li><strong>Create a Virtual Environment (optional but recommended)</strong>:
-      <br>
-      <a href="#" onclick="navigator.clipboard.writeText('python -m venv venv')">
-        <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-      </a>
-      ```bash
-      python -m venv venv
-      ```
+      <button onclick="copyToClipboard('python -m venv venv')">Copy command</button>
+      <pre><code>python -m venv venv</code></pre>
     </li>
     <li><strong>Activate the Virtual Environment</strong>:
       <ul>
         <li><strong>Windows</strong>:
-          <br>
-          <a href="#" onclick="navigator.clipboard.writeText('venv\\Scripts\\activate')">
-            <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-          </a>
-          ```bash
-          venv\Scripts\activate
-          ```
+          <button onclick="copyToClipboard('venv\\Scripts\\activate')">Copy command</button>
+          <pre><code>venv\Scripts\activate</code></pre>
         </li>
         <li><strong>macOS/Linux</strong>:
-          <br>
-          <a href="#" onclick="navigator.clipboard.writeText('source venv/bin/activate')">
-            <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-          </a>
-          ```bash
-          source venv/bin/activate
-          ```
+          <button onclick="copyToClipboard('source venv/bin/activate')">Copy command</button>
+          <pre><code>source venv/bin/activate</code></pre>
         </li>
       </ul>
     </li>
     <li><strong>Install Dependencies</strong>:
-      <br>
-      <a href="#" onclick="navigator.clipboard.writeText('pip install -r requirements.txt')">
-        <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-      </a>
-      ```bash
-      pip install -r requirements.txt
-      ```
+      <button onclick="copyToClipboard('pip install -r requirements.txt')">Copy command</button>
+      <pre><code>pip install -r requirements.txt</code></pre>
     </li>
     <li><strong>Run the Bot</strong>:
-      <br>
-      <a href="#" onclick="navigator.clipboard.writeText('python bot.py')">
-        <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
-      </a>
-      ```bash
-      python bot.py
-      ```
+      <button onclick="copyToClipboard('python bot.py')">Copy command</button>
+      <pre><code>python bot.py</code></pre>
     </li>
   </ol>
 </details>
@@ -198,3 +163,13 @@
   <summary>Click to expand</summary>
   <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
 </details>
+
+<script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    console.log('Text copied to clipboard');
+  }).catch(function(error) {
+    console.error('Unable to copy text: ', error);
+  });
+}
+</script>
