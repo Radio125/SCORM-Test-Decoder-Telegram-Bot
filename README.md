@@ -164,12 +164,3 @@
   <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
 </details>
 
-<script>
-function copyToClipboard(text) {
-  navigator.clipboard.writeText(text).then(function() {
-    console.log('Text copied to clipboard');
-  }).catch(function(error) {
-    console.error('Unable to copy text: ', error);
-  });
-}
-</script>
