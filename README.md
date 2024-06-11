@@ -109,21 +109,27 @@
       <a href="#" onclick="navigator.clipboard.writeText('git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git')">
         <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
       </a>
-      <pre>git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git</pre>
+      ```bash
+      git clone https://github.com/Radio125/SCORM-Test-Decoder-Telegram-Bot.git
+      ```
     </li>
     <li><strong>Navigate to the Directory</strong>:
       <br>
       <a href="#" onclick="navigator.clipboard.writeText('cd SCORM-Test-Decoder-Telegram-Bot')">
         <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
       </a>
-      <pre>cd SCORM-Test-Decoder-Telegram-Bot</pre>
+      ```bash
+      cd SCORM-Test-Decoder-Telegram-Bot
+      ```
     </li>
     <li><strong>Create a Virtual Environment (optional but recommended)</strong>:
       <br>
       <a href="#" onclick="navigator.clipboard.writeText('python -m venv venv')">
         <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
       </a>
-      <pre>python -m venv venv</pre>
+      ```bash
+      python -m venv venv
+      ```
     </li>
     <li><strong>Activate the Virtual Environment</strong>:
       <ul>
@@ -132,14 +138,18 @@
           <a href="#" onclick="navigator.clipboard.writeText('venv\\Scripts\\activate')">
             <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
           </a>
-          <pre>venv\Scripts\activate</pre>
+          ```bash
+          venv\Scripts\activate
+          ```
         </li>
         <li><strong>macOS/Linux</strong>:
           <br>
           <a href="#" onclick="navigator.clipboard.writeText('source venv/bin/activate')">
             <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
           </a>
-          <pre>source venv/bin/activate</pre>
+          ```bash
+          source venv/bin/activate
+          ```
         </li>
       </ul>
     </li>
@@ -148,14 +158,18 @@
       <a href="#" onclick="navigator.clipboard.writeText('pip install -r requirements.txt')">
         <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
       </a>
-      <pre>pip install -r requirements.txt</pre>
+      ```bash
+      pip install -r requirements.txt
+      ```
     </li>
     <li><strong>Run the Bot</strong>:
       <br>
       <a href="#" onclick="navigator.clipboard.writeText('python bot.py')">
         <img alt="Copy to clipboard" src="https://img.shields.io/badge/copy%20command-1a73e8?logo=clipboard&style=flat-square">
       </a>
-      <pre>python bot.py</pre>
+      ```bash
+      python bot.py
+      ```
     </li>
   </ol>
 </details>
